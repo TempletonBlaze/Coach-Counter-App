@@ -1,0 +1,87 @@
+body {
+    
+    font-family: Cantarell, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, 'Open Sans', 'Helvetica Neue', sans-serif;
+    font-weight: bold;
+}
+
+@font-face {
+    src: url("LEMONMILK-Bold.otf");
+    font-family: LEMONMILK;
+}
+
+#wrapper{
+    max-width: 400px;
+    height: 430px;
+    background-image: url("ball.jpg"); 
+    text-align: center; 
+    margin: 0 auto;
+    border-radius: 4px;
+}
+
+#transp {
+    background-color:rgba(192,192,192,0.3);
+    width: 400px;
+    height: 430px;
+    margin: 0 auto;
+}
+
+h1 {
+    color:rgba(0,0,0,0.7);
+    font-family: LEMONMILK;
+    color: black;
+	 text-shadow: -1px 1px 2px #fff,
+				  1px 2px 6px #fff,
+				  1px -1px 0 #fff,
+				  -1px -1px 0 #fff;
+    margin-top: 10px;
+    margin-bottom: 10px;
+}
+
+#heading {
+    padding: 10px;
+}
+
+h2 {
+    font-size: 50px;
+    margin-bottom: 20px;
+    color: white
+}
+
+button {
+    border: none;
+    padding-top: 10px;
+    padding-bottom: 10px;
+    color: white;
+    font-weight: bold;
+    width: 300px;
+    margin-bottom: 5px;
+    border-radius: 5px;
+    border: 1px solid whitesmoke;
+}
+
+#increment-btn {
+    margin-top: 20px;
+    background: #6C0BA9;
+}
+
+#save-btn {
+    background: #007575;
+}
+
+#save-el {
+     margin-top: 30px;
+     font-size: 25px;
+     color: white;
+	 text-shadow: -1px 1px 2px #000,
+				  1px 2px 6px #000,
+				  1px -1px 0 #000,
+				  -1px -1px 0 #000;
+}
+
+#count-wrapper {
+ height: 60px;
+ width:  40px;
+ background-color:rgba(0,0,0,0.4);
+ margin: 0 auto;
+ border-radius: 100%;
+}
